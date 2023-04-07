@@ -1,0 +1,13 @@
+Steps to execute the project
+1. Install python of any latest version
+2. create a virtual environment
+Syntax : py -m venv <venv_name>
+3. Activate the virtual environment
+Syntax : <venv_name>\Scripts\Activate
+4. Make execute the requirements.txt file which will install all the necessary
+files or softwares needed to execute the project
+Syntax : pip install -r requirements.txt
+5. Migrate the Database
+Syntax : py manage.py migrate
+6. Run the project
+Syntax : py manage.py runserver
